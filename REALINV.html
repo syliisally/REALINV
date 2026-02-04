@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nieruchomości & Doradztwo | One Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <!-- Własne style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img src="img/logo.svg" alt="Realinv" class="logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">O nas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#offer">Oferta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero-carousel">
+      <div
+        id="heroCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <!-- WSKAŹNIKI (kropki) -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <!-- SLAJDY -->
+        <div class="carousel-inner">
+          <!-- SLIDE 1 -->
+          <div class="carousel-item active hero-slide">
+            <div
+              class="slide-bg"
+              style="background-image: url(&quot;img/hero1.jpg&quot;)"
+            ></div>
+
+            <div class="overlay"></div>
+
+            <div class="carousel-caption">
+              <h1>
+                <i class="bi bi-buildings"></i>
+                Kompleksowa obsługa nieruchomości
+              </h1>
+              <p>Bezpieczne transakcje i doradztwo</p>
+            </div>
+          </div>
+
+          <!-- SLIDE 2 -->
+          <div class="carousel-item hero-slide">
+            <div
+              class="slide-bg"
+              style="background-image: url(&quot;img/hero2.jpg&quot;)"
+            ></div>
+
+            <div class="overlay"></div>
+
+            <div class="carousel-caption">
+              <h1>
+                <i class="bi bi-bank"></i>
+                Usługi prawne i księgowe
+              </h1>
+              <p>Dla firm i klientów indywidualnych</p>
+            </div>
+          </div>
+
+          <!-- SLIDE 3 -->
+          <div class="carousel-item hero-slide">
+            <div
+              class="slide-bg"
+              style="background-image: url(&quot;img/hero3.jpg&quot;)"
+            ></div>
+
+            <div class="overlay"></div>
+
+            <div class="carousel-caption">
+              <h1>
+                <i class="bi bi-calculator"></i>
+                Doradztwo podatkowe
+              </h1>
+              <p>Spokój i bezpieczeństwo finansowe</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- STRZAŁKI -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- O NAS -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2 class="section-title">O nas</h2>
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-12">
+            <p>
+              Zapewniamy kompleksowe wsparcie w obszarze nieruchomości, obsługi
+              prawnej oraz księgowości i podatków. Pomagamy klientom
+              indywidualnym i firmom podejmować bezpieczne decyzje,
+              minimalizować ryzyko i skutecznie zarządzać sprawami
+              formalno-finansowymi.
+            </p>
+            <p>
+              Specjalizujemy się w obsłudze transakcji nieruchomości, analizie
+              stanu prawnego oraz doradztwie inwestycyjnym. Oferujemy również
+              profesjonalne usługi prawne, obejmujące przygotowywanie i
+              opiniowanie umów, prawo gospodarcze oraz bieżącą obsługę
+              przedsiębiorców. Całość uzupełniamy rzetelną księgowością i
+              doradztwem podatkowym, dbając o zgodność z przepisami i
+              optymalizację rozliczeń.
+            </p>
+            <p>
+              Stawiamy na jasną komunikację, indywidualne podejście i realne
+              wsparcie na każdym etapie współpracy. Dzięki połączeniu wiedzy z
+              różnych dziedzin oferujemy rozwiązania dopasowane do potrzeb
+              naszych klientów i ich biznesu.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-12"></div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <i class="bi bi-check-circle-fill text-primary me-2"></i>
+              Doświadczenie i rzetelność
+            </li>
+            <li class="list-group-item">
+              <i class="bi bi-check-circle-fill text-primary me-2"></i>
+              Indywidualne podejście
+            </li>
+            <li class="list-group-item">
+              <i class="bi bi-check-circle-fill text-primary me-2"></i>
+              Kompleksowa obsługa
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFERTA -->
+    <section id="offer" class="py-5 offer-section">
+      <div class="container">
+        <!-- Tytuł -->
+        <div class="row mb-5">
+          <div class="col text-center">
+            <h2 class="section-title">Oferta</h2>
+            <p class="text-muted">
+              Kompleksowe wsparcie dla klientów indywidualnych i firm
+            </p>
+          </div>
+        </div>
+
+        <!-- KARTY -->
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="offer-card">
+              <div class="offer-icon">
+                <i class="bi bi-house-door"></i>
+              </div>
+              <h4>Nieruchomości</h4>
+              <p>
+                Obsługa transakcji, analiza stanu prawnego, doradztwo
+                inwestycyjne.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="offer-card">
+              <div class="offer-icon">
+                <i class="bi bi-bank"></i>
+              </div>
+              <h4>Usługi prawne</h4>
+              <p>
+                Umowy, prawo gospodarcze, reprezentacja i bieżąca obsługa firm.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="offer-card">
+              <div class="offer-icon">
+                <i class="bi bi-calculator"></i>
+              </div>
+              <h4>Księgowość i podatki</h4>
+              <p>Prowadzenie ksiąg, rozliczenia, doradztwo podatkowe.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2 class="section-title">Kontakt</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              <strong>Adres:</strong> Jana Henryka Dąbrowskiego 29, 60-840
+              Poznań
+            </p>
+            <p><strong>Telefon:</strong> +48 61 852 43 65</p>
+            <p><strong>Email:</strong> biuro@realinv.pl</p>
+          </div>
+
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Imię i nazwisko"
+                />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email" />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  placeholder="Wiadomość"
+                ></textarea>
+              </div>
+              <button class="btn btn-primary">Wyślij</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3">
+      © 2026 Alliance Media Polska S.A. Wszystkie prawa zastrzeżone.
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
