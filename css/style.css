@@ -282,11 +282,11 @@ nav .nav-link {
 }
 
 #about .list-group {
-  padding: 16px 0; /* luz nad i pod kartami */
+  padding: 16px 0;
 }
 
 .hero-carousel .carousel-indicators {
-  bottom: 4rem; /* zamiast 0 */
+  bottom: 4rem;
   z-index: 10;
 }
 .company-data {
@@ -303,5 +303,5 @@ nav .nav-link {
 
 .company-item i {
   font-size: 1.1rem;
-  color: #0d6efd; /* albo Twój primary */
+  color: #0d6efd;
 }
