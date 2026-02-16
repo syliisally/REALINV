@@ -289,4 +289,19 @@ nav .nav-link {
   bottom: 4rem; /* zamiast 0 */
   z-index: 10;
 }
-04css
+.company-data {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.company-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.company-item i {
+  font-size: 1.1rem;
+  color: #0d6efd; /* albo Twój primary */
+}
